@@ -1,14 +1,7 @@
 {
-  "name": "VueJS && FavQs Api",
+  "name": "vuejs-favqs",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "",
-  "private": true,
-  "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js"
-  },
+  "description": "Rest Api FavQs with vueJS",
   "dependencies": {
     "axios": "^0.16.2",
     "vue": "^2.2.6",
@@ -49,6 +42,24 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0"
   },
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrangerMdj/Vue-JS-2-FavQs-Api.git"
+  },
+  "keywords": [
+    "VueJs"
+  ],
+  "author": "mongi Jebali // mongi.interista@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StrangerMdj/Vue-JS-2-FavQs-Api/issues"
+  },
+  "homepage": "https://github.com/StrangerMdj/Vue-JS-2-FavQs-Api#readme",
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
